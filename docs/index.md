@@ -1,10 +1,10 @@
 ---
 hero:
-  title: ims-monorepo-template
-  description: a monorepo and docs template
+  title: components
+  description: 一些组件
   actions:
     - text: 快速上手
-      link: /guide
+      link: /page-loadings
     - text: Github
-      link: https://github.com/eternallycyf/ims-monorepo-template/
+      link: https://github.com/eternallycyf/components/
 ---

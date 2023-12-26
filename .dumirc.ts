@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 import type { SiteThemeConfig } from 'dumi-theme-antd-style';
 import path from 'path';
-import { featuresZh } from './config/features';
+import { features } from './config/features';
 import { footer } from './config/footer';
 import style from './docs/siteIndexStyle';
 import { homepage, name as repo } from './package.json';
@@ -28,7 +28,7 @@ const themeConfig: SiteThemeConfig = {
           openExternal: true,
         },
       ],
-      features: featuresZh,
+      features,
     },
     'en-US': {
       description: 'dumi2 theme similar to antd v5 website',
@@ -47,10 +47,10 @@ const themeConfig: SiteThemeConfig = {
   },
   // 目前只能设置一个 自动设置apiHeader
   apiHeader: {
-    sourceUrl: `https://github.com/eternallycyf/ims-monorepo-template/tree/master/packages/bar/src/{atomId}/index.tsx`,
-    docUrl: `https://github.com/eternallycyf/ims-monorepo-template/tree/master/packages/bar/src/{atomId}/index.md`,
-    pkg: '@ims-view/bar',
-    match: ['/bars'],
+    sourceUrl: `https://github.com/eternallycyf/components/tree/master/packages/page-loading/src/{atomId}/index.tsx`,
+    docUrl: `https://github.com/eternallycyf/components/tree/master/packages/page-loading/src/{atomId}/index.md`,
+    pkg: '@ims-view/page-loading',
+    match: ['/page-loading'],
   },
   footerConfig: {
     bottom: '2023',
@@ -68,17 +68,12 @@ export default defineConfig({
   publicPath: isProd ? '/' : basePath,
   favicons: [isProd ? '/images/favicon.ico' : `/${repo}/images/favicon.ico`],
   alias: {
-    '@ims-view/foo': path.join(__dirname, './packages/foo/src'),
-    '@ims-view/bar': path.join(__dirname, './packages/bar/src'),
-    '@ims-view/foo/src': path.join(__dirname, './packages/foo/src/*'),
-    '@ims-view/bar/src': path.join(__dirname, './packages/bar/src/*'),
+    '@ims-view/page-loading': path.join(__dirname, './packages/page-loading/src'),
+    '@ims-view/page-loading/src': path.join(__dirname, './packages/page-loading/src/*'),
   },
   resolve: {
     docDirs: ['docs'],
-    atomDirs: [
-      { type: 'foo', dir: './packages/foo/src' },
-      { type: 'bar', dir: './packages/bar/src' },
-    ],
+    atomDirs: [{ type: 'page-loading', dir: './packages/page-loading/src' }],
   },
   styles: [
     `html, body { background: transparent;  }

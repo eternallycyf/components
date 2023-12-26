@@ -67,9 +67,9 @@ export const footer = [
     title: '模板',
     items: [
       {
-        title: 'ims-monorepo-template',
+        title: 'components',
         description: 'monorepo模板',
-        url: 'https://github.com/eternallycyf/ims-monorepo-template',
+        url: 'https://github.com/eternallycyf/components',
         openExternal: true,
       },
       {

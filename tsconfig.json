@@ -22,10 +22,8 @@
     /* Alias 路径 */
     "baseUrl": ".",
     "paths": {
-      "@ims-view/foo": ["./packages/foo/src"],
-      "@ims-view/foo/*": ["./packages/foo/src/*"],
-      "@ims-view/bar": ["./packages/bar/src"],
-      "@ims-view/bar/*": ["./packages/bar/src/*"]
+      "@ims-view/page-loading": ["./packages/page-loading/src"],
+      "@ims-view/page-loading/*": ["./packages/page-loading/src/*"]
     }
   },
   "exclude": ["node_modules", "dist", "server"]

@@ -39,7 +39,12 @@ export const footer = [
       },
       {
         title: 'ims-IndexedDB',
-        url: 'https://ims-indexed-db.vercel.app/components/create-indexed-db-helper',
+        url: 'https://components-eternallycyf.vercel.app/',
+        openExternal: true,
+      },
+      {
+        title: '@ims-view/components',
+        url: 'https://ims-graph.vercel.app/components/graph-chart',
         openExternal: true,
       },
     ],
@@ -67,9 +72,9 @@ export const footer = [
     title: '模板',
     items: [
       {
-        title: 'components',
+        title: 'ims-monorepo-template',
         description: 'monorepo模板',
-        url: 'https://github.com/eternallycyf/components',
+        url: 'https://github.com/eternallycyf/ims-monorepo-template',
         openExternal: true,
       },
       {

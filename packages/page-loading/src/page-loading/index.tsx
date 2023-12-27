@@ -2,7 +2,7 @@ import 'multi-nprogress/nprogress.css';
 import type { FC, ReactNode } from 'react';
 import React from 'react';
 import Square from './preloader';
-import './style.less';
+import './style.css';
 import { useProgress } from './useProgress';
 
 export interface PageLoadingProps {

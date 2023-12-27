@@ -15,22 +15,21 @@
   height: 100%;
 }
 
-.components-page-loading {
-  &-container {
+.components-page-loading-container{
     display: flex;
     height: 100%;
-  }
-
-  &-fullscreen {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9900;
-  }
-
-  &-loader {
-    margin: auto;
-  }
 }
+
+.components-page-loading-fullscreen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9900;
+}
+
+.components-page-loading-loader {
+  margin: auto;
+}
+

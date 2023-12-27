@@ -1,5 +1,24 @@
 # Changelog
 
+### [Version&nbsp;1.1.2](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.1.1...@ims-view/page-loading@1.1.2)
+
+<sup>Released on **2023-12-27**</sup>
+
+#### 🐛 修复
+
+- **@ims-view/page-loading**: Style use webkit prefix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **@ims-view/page-loading**: Style use webkit prefix ([66cec9c](https://github.com/eternallycyf/components/commit/66cec9c))
+
+</details>
+
 ### [Version&nbsp;1.1.1](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.1.0...@ims-view/page-loading@1.1.1)
 
 <sup>Released on **2023-12-27**</sup>

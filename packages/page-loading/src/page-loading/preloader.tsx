@@ -1,7 +1,7 @@
 import type { CSSProperties, FC } from 'react';
 import React from 'react';
 
-import './preloader.less';
+import './preloader.css';
 
 export interface SquareProps {
   /**

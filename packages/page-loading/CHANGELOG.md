@@ -1,5 +1,24 @@
 # Changelog
 
+## [Version&nbsp;1.2.0](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.1.3...@ims-view/page-loading@1.2.0)
+
+<sup>Released on **2024-01-12**</sup>
+
+#### ✨ 新特性
+
+- Test publish:.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Test publish: ([2a6716c](https://github.com/eternallycyf/components/commit/2a6716c))
+
+</details>
+
 ### [Version&nbsp;1.1.3](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.1.2...@ims-view/page-loading@1.1.3)
 
 <sup>Released on **2023-12-27**</sup>

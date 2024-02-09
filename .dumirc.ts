@@ -70,10 +70,15 @@ export default defineConfig({
   alias: {
     '@ims-view/page-loading': path.join(__dirname, './packages/page-loading/src'),
     '@ims-view/page-loading/src': path.join(__dirname, './packages/page-loading/src/*'),
+    '@ims-view/calendar': path.join(__dirname, './packages/calendar/src'),
+    '@ims-view/calendar/src': path.join(__dirname, './packages/calendar/src/*'),
   },
   resolve: {
     docDirs: ['docs'],
-    atomDirs: [{ type: 'page-loading', dir: './packages/page-loading/src' }],
+    atomDirs: [
+      { type: 'components', dir: './packages/page-loading/src' },
+      { type: 'components', dir: './packages/calendar/src' },
+    ],
   },
   styles: [
     `html, body { background: transparent;  }

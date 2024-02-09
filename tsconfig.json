@@ -23,7 +23,9 @@
     "baseUrl": ".",
     "paths": {
       "@ims-view/page-loading": ["./packages/page-loading/src"],
-      "@ims-view/page-loading/*": ["./packages/page-loading/src/*"]
+      "@ims-view/page-loading/*": ["./packages/page-loading/src/*"],
+      "@ims-view/calendar": ["./packages/calendar/src"],
+      "@ims-view/calendar/*": ["./packages/calendar/src/*"]
     }
   },
   "exclude": ["node_modules", "dist", "server"]

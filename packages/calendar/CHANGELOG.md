@@ -1,5 +1,24 @@
 # Changelog
 
+### [Version&nbsp;1.1.1](https://github.com/eternallycyf/components/compare/@ims-view/calendar@1.1.0...@ims-view/calendar@1.1.1)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### 🐛 修复
+
+- **@ims-view/calendar**: Add dependencies.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **@ims-view/calendar**: Add dependencies ([f8baa4c](https://github.com/eternallycyf/components/commit/f8baa4c))
+
+</details>
+
 ## [Version&nbsp;1.1.0](https://github.com/eternallycyf/components/compare/@ims-view/calendar@1.0.0...@ims-view/calendar@1.1.0)
 
 <sup>Released on **2024-02-09**</sup>

@@ -46,9 +46,12 @@ node 版本 v18.13.0
 | 组件                                                                           | 下载量                                                                                                              | 版本                                                                                           |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | [@ims-view/page-loading](https://www.npmjs.com/package/@ims-view/page-loading) | ![npm-image](http://img.shields.io/npm/v/@ims-view/page-loading.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/page-loading-download-image]][@ims-view/page-loading-download-url] |
+| [@ims-view/calendar](https://www.npmjs.com/package/@ims-view/calendar)         | ![npm-image](http://img.shields.io/npm/v/@ims-view/calendar.svg?style=flat-square&color=deepgreen&label=latest)     | [![NPM downloads][@ims-view/calendar-download-image]][@ims-view/calendar-download-url]         |
 
 [@ims-view/page-loading-download-url]: https://npmjs.org/package/@ims-view/page-loading
 [@ims-view/page-loading-download-image]: https://img.shields.io/npm/dm/@ims-view/page-loading.svg?style=flat-square
+[@ims-view/calendar-download-url]: https://npmjs.org/package/@ims-view/calendar
+[@ims-view/calendar-download-image]: https://img.shields.io/npm/dm/@ims-view/calendar.svg?style=flat-square
 
 ## License
 

@@ -1,5 +1,24 @@
 # Changelog
 
+## [Version&nbsp;1.3.0](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.2.0...@ims-view/page-loading@1.3.0)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### ✨ 新特性
+
+- **@ims-view/calendar**: Add MiniCalendar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **@ims-view/calendar**: Add MiniCalendar ([6be604f](https://github.com/eternallycyf/components/commit/6be604f))
+
+</details>
+
 ## [Version&nbsp;1.2.0](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.1.3...@ims-view/page-loading@1.2.0)
 
 <sup>Released on **2024-01-12**</sup>

@@ -18,14 +18,15 @@
     "start": "father dev",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.10"
+  },
   "devDependencies": {},
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "dayjs": "^1.11.10",
-    "lodash": "^4.17.21",
-    "classnames": "^2.5.1"
+    "lodash": "^4.17.21"
   },
   "publishConfig": {
     "access": "public",

@@ -1,5 +1,5 @@
 import { Dayjs } from 'dayjs';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { HeaderProps } from './interface';
 import allLocales from './locale';
 import LocaleContext from './LocaleContext';

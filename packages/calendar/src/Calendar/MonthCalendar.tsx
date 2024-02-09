@@ -1,6 +1,6 @@
 import cs from 'classnames';
 import { Dayjs } from 'dayjs';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { CalendarProps } from './interface';
 import allLocales from './locale';
 import LocaleContext from './LocaleContext';

@@ -24,7 +24,8 @@
     "react": "^18",
     "react-dom": "^18",
     "dayjs": "^1.11.10",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "classnames": "^2.5.1"
   },
   "publishConfig": {
     "access": "public",

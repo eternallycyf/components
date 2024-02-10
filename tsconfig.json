@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "resolveJsonModule": true,
-    "importHelpers": true,
+    "importHelpers": false,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     /* 生成能力 */
@@ -25,7 +25,9 @@
       "@ims-view/page-loading": ["./packages/page-loading/src"],
       "@ims-view/page-loading/*": ["./packages/page-loading/src/*"],
       "@ims-view/calendar": ["./packages/calendar/src"],
-      "@ims-view/calendar/*": ["./packages/calendar/src/*"]
+      "@ims-view/calendar/*": ["./packages/calendar/src/*"],
+      "@ims-view/space": ["./packages/space/src"],
+      "@ims-view/space/*": ["./packages/space/src/*"]
     }
   },
   "exclude": ["node_modules", "dist", "server"]

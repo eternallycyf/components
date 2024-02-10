@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Space should render width ConfigProvider 1`] = `
+HTMLCollection [
+  <div
+    class="space space-horizontal space-align-center"
+    style="column-gap: 24px; row-gap: 24px;"
+  >
+    <div
+      class="space-item"
+    >
+      <span>
+        1
+      </span>
+    </div>
+    <div
+      class="space-item"
+    >
+      <span>
+        2
+      </span>
+    </div>
+  </div>,
+  <div
+    class="space space-horizontal space-align-center"
+    style="column-gap: 16px; row-gap: 16px;"
+  >
+    <div
+      class="space-item"
+    >
+      <span>
+        1
+      </span>
+    </div>
+    <div
+      class="space-item"
+    >
+      <span>
+        2
+      </span>
+    </div>
+  </div>,
+  <div
+    class="space space-horizontal space-align-center"
+    style="column-gap: 24px; row-gap: 24px;"
+  >
+    <div
+      class="space-item"
+    >
+      <span>
+        1
+      </span>
+    </div>
+    <div
+      class="space-item"
+    >
+      <span>
+        2
+      </span>
+    </div>
+  </div>,
+]
+`;

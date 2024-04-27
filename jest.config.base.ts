@@ -16,6 +16,7 @@ const config: Config.InitialOptions = {
     '@ims-view/page-loading': '<rootDir>/packages/page-loading/src',
     '@ims-view/calendar': '<rootDir>/packages/calendar/src',
     '@ims-view/space': '<rootDir>/packages/space/src',
+    '@ims-view/icon': '<rootDir>/packages/icon/src',
   },
   rootDir: path.resolve(__dirname, '.'),
   coveragePathIgnorePatterns: ['/node_modules/', '/lib/', '/es/'],

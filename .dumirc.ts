@@ -72,6 +72,8 @@ export default defineConfig({
     '@ims-view/calendar/src': path.join(__dirname, './packages/calendar/src/*'),
     '@ims-view/space': path.join(__dirname, './packages/space/src'),
     '@ims-view/space/src': path.join(__dirname, './packages/space/src/*'),
+    '@ims-view/icon': path.join(__dirname, './packages/icon/src'),
+    '@ims-view/icon/src': path.join(__dirname, './packages/icon/src/*'),
   },
   resolve: {
     docDirs: ['docs'],
@@ -79,6 +81,7 @@ export default defineConfig({
       { type: 'components', dir: './packages/page-loading/src' },
       { type: 'components', dir: './packages/calendar/src' },
       { type: 'components', dir: './packages/space/src' },
+      { type: 'components', dir: './packages/icon/src' },
     ],
   },
   styles: [

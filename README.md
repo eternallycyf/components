@@ -48,6 +48,7 @@ node 版本 v18.13.0
 | [@ims-view/page-loading](https://www.npmjs.com/package/@ims-view/page-loading) | ![npm-image](http://img.shields.io/npm/v/@ims-view/page-loading.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/page-loading-download-image]][@ims-view/page-loading-download-url] |
 | [@ims-view/calendar](https://www.npmjs.com/package/@ims-view/calendar)         | ![npm-image](http://img.shields.io/npm/v/@ims-view/calendar.svg?style=flat-square&color=deepgreen&label=latest)     | [![NPM downloads][@ims-view/calendar-download-image]][@ims-view/calendar-download-url]         |
 | [@ims-view/space](https://www.npmjs.com/package/@ims-view/space)               | ![npm-image](http://img.shields.io/npm/v/@ims-view/space.svg?style=flat-square&color=deepgreen&label=latest)        | [![NPM downloads][@ims-view/space-download-image]][@ims-view/space-download-url]               |
+| [@ims-view/icon](https://www.npmjs.com/package/@ims-view/icon)                 | ![npm-image](http://img.shields.io/npm/v/@ims-view/icon.svg?style=flat-square&color=deepgreen&label=latest)         | [![NPM downloads][@ims-view/icon-download-image]][@ims-view/icon-download-url]                 |
 
 [@ims-view/page-loading-download-url]: https://npmjs.org/package/@ims-view/page-loading
 [@ims-view/page-loading-download-image]: https://img.shields.io/npm/dm/@ims-view/page-loading.svg?style=flat-square
@@ -55,6 +56,8 @@ node 版本 v18.13.0
 [@ims-view/calendar-download-image]: https://img.shields.io/npm/dm/@ims-view/calendar.svg?style=flat-square
 [@ims-view/space-download-url]: https://npmjs.org/package/@ims-view/space
 [@ims-view/space-download-image]: https://img.shields.io/npm/dm/@ims-view/space.svg?style=flat-square
+[@ims-view/icon-download-url]: https://npmjs.org/package/@ims-view/icon
+[@ims-view/icon-download-image]: https://img.shields.io/npm/dm/@ims-view/icon.svg?style=flat-square
 
 ## License
 

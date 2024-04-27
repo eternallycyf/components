@@ -27,8 +27,10 @@
       "@ims-view/calendar": ["./packages/calendar/src"],
       "@ims-view/calendar/*": ["./packages/calendar/src/*"],
       "@ims-view/space": ["./packages/space/src"],
-      "@ims-view/space/*": ["./packages/space/src/*"]
+      "@ims-view/space/*": ["./packages/space/src/*"],
+      "@ims-view/icon": ["./packages/icon/src"],
+      "@ims-view/icon/*": ["./packages/icon/src/*"]
     }
   },
-  "exclude": ["node_modules", "dist", "server"]
+  "exclude": ["node_modules", "dist", "server", "src/**/*.test.ts"]
 }

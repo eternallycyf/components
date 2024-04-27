@@ -13,5 +13,6 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off',
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': 'warn',
+    'react/jsx-key': 'warn',
   },
 };

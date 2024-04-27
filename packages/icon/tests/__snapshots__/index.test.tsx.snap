@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon 1`] = `
+<div>
+  <svg
+    class="icon"
+    fill="currentColor"
+    height="1em"
+    width="1em"
+  />
+</div>
+`;

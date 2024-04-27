@@ -29,7 +29,9 @@
       "@ims-view/space": ["./packages/space/src"],
       "@ims-view/space/*": ["./packages/space/src/*"],
       "@ims-view/icon": ["./packages/icon/src"],
-      "@ims-view/icon/*": ["./packages/icon/src/*"]
+      "@ims-view/icon/*": ["./packages/icon/src/*"],
+      "@ims-view/watermark": ["./packages/watermark/src"],
+      "@ims-view/watermark/*": ["./packages/watermark/src/*"]
     }
   },
   "exclude": ["node_modules", "dist", "server", "src/**/*.test.ts"]

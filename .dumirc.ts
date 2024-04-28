@@ -78,6 +78,8 @@ export default defineConfig({
     '@ims-view/watermark/src': path.join(__dirname, './packages/watermark/src/*'),
     '@ims-view/upload': path.join(__dirname, './packages/upload/src'),
     '@ims-view/upload/src': path.join(__dirname, './packages/upload/src/*'),
+    '@ims-view/form': path.join(__dirname, './packages/form/src'),
+    '@ims-view/form/src': path.join(__dirname, './packages/form/src/*'),
   },
   resolve: {
     docDirs: ['docs'],
@@ -88,6 +90,7 @@ export default defineConfig({
       { type: 'components', dir: './packages/icon/src' },
       { type: 'components', dir: './packages/watermark/src' },
       { type: 'components', dir: './packages/upload/src' },
+      { type: 'components', dir: './packages/form/src' },
     ],
   },
   styles: [

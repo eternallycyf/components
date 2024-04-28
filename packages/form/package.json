@@ -1,0 +1,36 @@
+{
+  "name": "@ims-view/form",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build",
+    "clean": "rm -rf es lib dist build coverage .eslintcache",
+    "cov": "jest --coverage",
+    "doctor": "father doctor",
+    "prepublishOnly": "npm run doctor && npm run build",
+    "start": "father dev",
+    "test": "jest"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "async-validator": "^4.2.5"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lodash": "^4.17.21",
+    "antd": "^5.16.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

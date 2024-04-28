@@ -18,6 +18,7 @@ const config: Config.InitialOptions = {
     '@ims-view/space': '<rootDir>/packages/space/src',
     '@ims-view/icon': '<rootDir>/packages/icon/src',
     '@ims-view/watermark': '<rootDir>/packages/watermark/src',
+    '@ims-view/upload': '<rootDir>/packages/upload/src',
   },
   rootDir: path.resolve(__dirname, '.'),
   coveragePathIgnorePatterns: ['/node_modules/', '/lib/', '/es/'],

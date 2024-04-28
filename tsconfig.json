@@ -31,7 +31,9 @@
       "@ims-view/icon": ["./packages/icon/src"],
       "@ims-view/icon/*": ["./packages/icon/src/*"],
       "@ims-view/watermark": ["./packages/watermark/src"],
-      "@ims-view/watermark/*": ["./packages/watermark/src/*"]
+      "@ims-view/watermark/*": ["./packages/watermark/src/*"],
+      "@ims-view/upload": ["./packages/upload/src"],
+      "@ims-view/upload/*": ["./packages/upload/src/*"]
     }
   },
   "exclude": ["node_modules", "dist", "server", "src/**/*.test.ts"]

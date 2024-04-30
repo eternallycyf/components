@@ -4,7 +4,7 @@ order: 0
 nav:
   title: 基础组件
   order: 4
-group: 其他
+group: 基础
 apiHeader:
   pkg: '@ims-view/form'
   docUrl: https://github.com/eternallycyf/components/blob/master/packages/form/src/form/index.md
@@ -15,7 +15,7 @@ apiHeader:
 
 ## 介绍
 
-`Clipboard` 组件可以 copy 指定内容到剪贴板。
+`Form` 组件 用于表单布局。
 
 ## 引入
 

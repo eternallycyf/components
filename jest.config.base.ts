@@ -20,6 +20,7 @@ const config: Config.InitialOptions = {
     '@ims-view/watermark': '<rootDir>/packages/watermark/src',
     '@ims-view/upload': '<rootDir>/packages/upload/src',
     '@ims-view/form': '<rootDir>/packages/form/src',
+    '@ims-view/message': '<rootDir>/packages/message/src',
   },
   rootDir: path.resolve(__dirname, '.'),
   coveragePathIgnorePatterns: ['/node_modules/', '/lib/', '/es/'],

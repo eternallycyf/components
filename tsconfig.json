@@ -35,7 +35,9 @@
       "@ims-view/upload": ["./packages/upload/src"],
       "@ims-view/upload/*": ["./packages/upload/src/*"],
       "@ims-view/form": ["./packages/form/src"],
-      "@ims-view/form/*": ["./packages/form/src/*"]
+      "@ims-view/form/*": ["./packages/form/src/*"],
+      "@ims-view/message": ["./packages/message/src"],
+      "@ims-view/message/*": ["./packages/message/src/*"]
     }
   },
   "exclude": ["node_modules", "dist", "server", "src/**/*.test.ts"]

@@ -22,6 +22,7 @@ const config: Config.InitialOptions = {
     '@ims-view/form': '<rootDir>/packages/form/src',
     '@ims-view/message': '<rootDir>/packages/message/src',
     '@ims-view/popover': '<rootDir>/packages/popover/src',
+    '@ims-view/tour': '<rootDir>/packages/tour/src',
   },
   rootDir: path.resolve(__dirname, '.'),
   coveragePathIgnorePatterns: ['/node_modules/', '/lib/', '/es/'],

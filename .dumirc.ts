@@ -82,6 +82,8 @@ export default defineConfig({
     '@ims-view/form/src': path.join(__dirname, './packages/form/src/*'),
     '@ims-view/message': path.join(__dirname, './packages/message/src'),
     '@ims-view/message/src': path.join(__dirname, './packages/message/src/*'),
+    '@ims-view/popover': path.join(__dirname, './packages/popover/src'),
+    '@ims-view/popover/src': path.join(__dirname, './packages/popover/src/*'),
   },
   resolve: {
     docDirs: ['docs'],
@@ -94,6 +96,7 @@ export default defineConfig({
       { type: 'components', dir: './packages/upload/src' },
       { type: 'components', dir: './packages/form/src' },
       { type: 'components', dir: './packages/message/src' },
+      { type: 'components', dir: './packages/popover/src' },
     ],
   },
   styles: [

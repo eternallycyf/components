@@ -64,9 +64,9 @@ node 版本 v18.13.0
 [@ims-view/icon-download-image]: https://img.shields.io/npm/dm/@ims-view/icon.svg?style=flat-square
 [@ims-view/watermark-download-url]: https://npmjs.org/package/@ims-view/watermark
 [@ims-view/watermark-download-image]: https://img.shields.io/npm/dm/@ims-view/watermark.svg?style=flat-square
-[@ims-view/upload]: https://npmjs.org/package/@ims-view/upload
+[@ims-view/upload-download-url]: https://npmjs.org/package/@ims-view/upload
 [@ims-view/upload-download-image]: https://img.shields.io/npm/dm/@ims-view/upload.svg?style=flat-square
-[@ims-view/form]: https://npmjs.org/package/@ims-view/form
+[@ims-view/form-download-url]: https://npmjs.org/package/@ims-view/form
 [@ims-view/form-download-image]: https://img.shields.io/npm/dm/@ims-view/form.svg?style=flat-square
 [@ims-view/message-download-url]: https://npmjs.org/package/@ims-view/message
 [@ims-view/message-download-image]: https://img.shields.io/npm/dm/@ims-view/message.svg?style=flat-square

@@ -1,6 +1,6 @@
 {
   "name": "@ims-view/message",
-  "version": "0.0.01",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",

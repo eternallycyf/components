@@ -1,5 +1,24 @@
 # Changelog
 
+## [Version&nbsp;1.4.0](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.3.1...@ims-view/page-loading@1.4.0)
+
+<sup>Released on **2024-05-05**</sup>
+
+#### ✨ 新特性
+
+- Add umd build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Add umd build ([7df21fa](https://github.com/eternallycyf/components/commit/7df21fa))
+
+</details>
+
 ### [Version&nbsp;1.3.1](https://github.com/eternallycyf/components/compare/@ims-view/page-loading@1.3.0...@ims-view/page-loading@1.3.1)
 
 <sup>Released on **2024-04-28**</sup>

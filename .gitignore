@@ -29,6 +29,7 @@ dist/
 build/
 server/
 .dumi/
+/docs-dist
 
 # Serverless generated files
 .serverless/

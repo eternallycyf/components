@@ -41,7 +41,9 @@
       "@ims-view/popover": ["./packages/popover/src"],
       "@ims-view/popover/*": ["./packages/popover/src/*"],
       "@ims-view/tour": ["./packages/tour/src"],
-      "@ims-view/tour/*": ["./packages/tour/src/*"]
+      "@ims-view/tour/*": ["./packages/tour/src/*"],
+      "@ims-view/lazyload": ["./packages/lazyload/src"],
+      "@ims-view/lazyload/*": ["./packages/lazyload/src/*"]
     }
   },
   "exclude": ["node_modules", "dist", "server", "src/**/*.test.ts"]

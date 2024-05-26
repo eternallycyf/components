@@ -55,6 +55,7 @@ node 版本 v18.13.0
 | [@ims-view/message](https://www.npmjs.com/package/@ims-view/message)           | ![npm-image](http://img.shields.io/npm/v/@ims-view/message.svg?style=flat-square&color=deepgreen&label=latest)      | [![NPM downloads][@ims-view/message-download-image]][@ims-view/message-download-url]           |
 | [@ims-view/popover](https://www.npmjs.com/package/@ims-view/popover)           | ![npm-image](http://img.shields.io/npm/v/@ims-view/popover.svg?style=flat-square&color=deepgreen&label=latest)      | [![NPM downloads][@ims-view/popover-download-image]][@ims-view/popover-download-url]           |
 | [@ims-view/tour](https://www.npmjs.com/package/@ims-view/tour)                 | ![npm-image](http://img.shields.io/npm/v/@ims-view/tour.svg?style=flat-square&color=deepgreen&label=latest)         | [![NPM downloads][@ims-view/tour-download-image]][@ims-view/tour-download-url]                 |
+| [@ims-view/lazyload](https://www.npmjs.com/package/@ims-view/lazyload)         | ![npm-image](http://img.shields.io/npm/v/@ims-view/lazyload.svg?style=flat-square&color=deepgreen&label=latest)     | [![NPM downloads][@ims-view/lazyload-download-image]][@ims-view/lazyload-download-url]         |
 
 [@ims-view/page-loading-download-url]: https://npmjs.org/package/@ims-view/page-loading
 [@ims-view/page-loading-download-image]: https://img.shields.io/npm/dm/@ims-view/page-loading.svg?style=flat-square
@@ -76,6 +77,8 @@ node 版本 v18.13.0
 [@ims-view/popover-download-image]: https://img.shields.io/npm/dm/@ims-view/popover.svg?style=flat-square
 [@ims-view/tour-download-url]: https://npmjs.org/package/@ims-view/tour
 [@ims-view/tour-download-image]: https://img.shields.io/npm/dm/@ims-view/tour.svg?style=flat-square
+[@ims-view/lazyload-download-url]: https://npmjs.org/package/@ims-view/lazyload
+[@ims-view/lazyload-download-image]: https://img.shields.io/npm/dm/@ims-view/lazyload.svg?style=flat-square
 
 ## License
 

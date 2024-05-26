@@ -1,6 +1,6 @@
 {
   "name": "@ims-view/lazyload",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "unpkg": "dist/index.js",
   "module": "es/index.js",

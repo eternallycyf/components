@@ -2,7 +2,7 @@
 
 一些组件
 
-node 版本 v18.13.0
+node 版本 >=22.13（Vercel 可用 22.x / 24.x）
 
 [![Gitmoji][gitmoji]][gitmoji-url] [![semantic-release][semantic-release]][semantic-release-repo]
 

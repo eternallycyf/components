@@ -13,7 +13,7 @@
   "repository": "git+https://github.com/eternallycyf/components.git",
   "license": "MIT",
   "engines": {
-    "node": ">=22.13"
+    "node": "24.x"
   },
   "packageManager": "pnpm@10.16.1",
   "author": "eternallycyf(969475322@qq.com)",

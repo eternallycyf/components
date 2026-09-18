@@ -27,7 +27,9 @@ jobs:
         run: pnpm install
 
       - name: 📦 构建 npm 包
-        run: pnpm run build
+        run: pnpm run build:umd
+        env:
+          BUILD_UMD: '1'
 
       # npm 8 和 9 会在 `npm version` 时执行依赖树命令，进而报错退出
       # Refs: https://github.com/semantic-release/npm/issues/540

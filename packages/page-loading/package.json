@@ -15,9 +15,10 @@
     "clean": "rm -rf es lib dist build coverage .eslintcache",
     "cov": "jest --coverage",
     "doctor": "father doctor",
-    "prepublishOnly": "npm run doctor && npm run build",
+    "prepublishOnly": "npm run doctor && npm run build:umd",
     "start": "father dev",
-    "test": "jest"
+    "test": "jest",
+    "build:umd": "BUILD_UMD=1 father build"
   },
   "dependencies": {
     "@babel/runtime": "^7.23.1",

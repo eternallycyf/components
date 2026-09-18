@@ -73,7 +73,7 @@ export default defineConfig({
     '@ims-view/space': path.join(__dirname, './packages/space/src'),
     '@ims-view/space/src': path.join(__dirname, './packages/space/src/*'),
     '@ims-view/icon': path.join(__dirname, './packages/icon/src'),
-    '@ims-view/icon/src': path.join(__dirname, './packages/watermark/src/*'),
+    '@ims-view/icon/src': path.join(__dirname, './packages/icon/src/*'),
     '@ims-view/watermark': path.join(__dirname, './packages/watermark/src'),
     '@ims-view/watermark/src': path.join(__dirname, './packages/watermark/src/*'),
     '@ims-view/upload': path.join(__dirname, './packages/upload/src'),
@@ -125,8 +125,10 @@ export default defineConfig({
     include: ['mock/**/*.{ts}'],
   },
   exportStatic: false,
-  html2sketch: {},
-  mfsu: {
-    runtimePublicPath: true,
-  },
+  // html2sketch adds weight and is unused for deployment
+  mfsu: isProd
+    ? false
+    : {
+        runtimePublicPath: true,
+      },
 });

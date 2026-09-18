@@ -3,5 +3,5 @@
   "framework": null,
   "buildCommand": "pnpm run docs:build",
   "outputDirectory": "docs-dist",
-  "installCommand": "pnpm install"
+  "installCommand": "pnpm install --ignore-scripts"
 }
